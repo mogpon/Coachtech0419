@@ -1,0 +1,413 @@
+body{
+  color:gray;
+}
+/* ヘッダー */
+header{
+  height:40px;
+}
+.head{
+  padding:5px 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h-left img{
+  width:100px;
+}
+nav{
+  padding-top:5px;
+}
+.menu{
+  display:flex;
+}
+.menu a{
+  text-decoration: none;
+  color:gray;
+}
+.menu li:not(:last-child){
+  margin-right:15px;
+}
+/* メインタイトル */
+.title{
+  position:relative;
+}
+.title img{
+  width:60%;
+  display: block;
+  margin:0 0 0 auto;
+}
+.title-text{
+  position:absolute;
+  top:14%;
+  left:22%;
+}
+.title-text h1{
+  font-family: 'Indie Flower', cursive;
+  font-size:62px;
+  color:rgb(182, 44, 67);
+  line-height: 1.5em;
+}
+.title-text span{
+  color:rgb(24, 157, 190);
+}
+.title-text h2{
+  font-size:20px;
+  color:rgb(182, 44, 67);
+  margin-top:60px;
+}
+.title-text p{
+  line-height: 1.5em;
+  margin-top:10px;
+  font-size:14px;
+}
+/* 新着情報 */
+.news{
+  width:50%;
+  margin:30px auto;
+  margin-bottom:80px;
+}
+.news>p{
+  font-family: 'Indie Flower', cursive;
+  color:rgb(182, 44, 67);
+  font-size:14px;
+}
+.news h2{
+  font-weight: bold;
+  font-size:24px;
+  margin:10px 0 35px 0;
+}
+.topic{
+  display: flex;
+  border-bottom:1px solid rgb(128, 128, 128, 0.5);
+  padding:18px 0;
+}
+.topic p:nth-child(2){
+  margin:0 20px 0 20px;
+  display: block;
+  width:75px;
+  background:rgb(182, 44, 67);
+  color:white;
+  text-align:center;
+  padding:1px 5px 1px 5px;
+  border-radius: 30px;
+}
+.border{
+  padding:10px 0 30px 0;
+  border-top:1px solid gray;
+  border-bottom:1px solid gray;
+}
+/* アバウト */
+.about{
+  height:500px;
+  background:#ddd;
+}
+.abouts{
+  /* text-align: center; */
+  width:70%;
+  margin:10px auto;
+}
+.about-title{
+  text-align: center;
+  padding:30px 0;
+}
+.about-title>p{
+  font-family: 'Indie Flower', cursive;
+  color:rgb(182, 44, 67);
+  font-size:14px;
+  margin-bottom:15px;
+}
+.about-title h2{
+  font-weight: bold;
+  font-size:24px;
+  margin-bottom:10px;
+}
+.about-item{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+.about-item p{
+  width:380px;
+  text-align: justify;
+  line-height: 1.8em;
+  margin-left:20px;
+}
+.about-item img{
+  width:45%;
+  margin-left:50px;
+}
+/* サービス内容 */
+.service{
+  height:500px;
+  padding-bottom:70px;
+}
+.services{
+  /* text-align: center; */
+  width:70%;
+  margin:10px auto;
+}
+.service-title>p{
+  font-family: 'Indie Flower', cursive;
+  color:rgb(182, 44, 67);
+  font-size:14px;
+  margin-top:60px;
+  margin-bottom:15px;
+}
+.service-title h2{
+  font-weight: bold;
+  font-size:24px;
+  margin-bottom:30px;
+}
+.service-items img{
+  width:25%;
+}
+.l-item ,.r-item{
+  width:50%;
+}
+.service-items{
+  display: flex;
+}
+.service-items h3{
+  font-size:18px;
+  margin:20px 0;
+}
+.l-item{
+  height:340px;
+  background:rgb(182, 44, 67);
+  color:white;
+  padding:35px 15px;
+  text-align: center;
+}
+.l-item p{
+  text-align: left;
+}
+.r-item1{
+  height:175px;
+  background:rgb(177, 79, 95);
+  color:white;
+  padding:15px;
+  display: flex;
+}
+.l-item-text{
+  height:100%;
+  margin:20px 40px;
+  line-height: 1.5em;
+}
+.r-item1-text{
+  height:100%;
+  margin:20px 10px;
+  line-height: 1.2em;
+  text-align: justify;
+}
+.r-item2-text{
+  height:100%;
+  margin:20px 10px;
+  line-height: 1.2em;
+  text-align: justify;
+}
+.r-item2{
+  height:175px;
+  background:rgb(180, 118, 128);
+  color:white;
+  padding:15px;
+  display: flex;
+}
+/* ブログ */
+.blog{
+  height:570px;
+  background:#ddd;
+}
+.blog1{
+  text-align: center;
+  width:70%;
+  margin:10px auto;
+}
+.blog-title{
+  text-align: left;
+}
+.blog-title>p{
+  font-family: 'Indie Flower', cursive;
+  color:rgb(182, 44, 67);
+  font-size:14px;
+  padding-top:30px;
+  margin-bottom:15px;
+}
+.blog-title h2{
+  font-weight: bold;
+  font-size:24px;
+  margin-bottom:30px;
+}
+.blogs{
+  width:30%;
+}
+.blogs:not(:last-child){
+  margin-right:50px;
+}
+.blogs img{
+  width:100%;
+  border-radius: 15px 15px 0 0;
+}
+.b-photo{
+  position: relative;
+}
+.b-photo p{
+  position:absolute;
+  top:0%;
+  left:0%;
+  color:white;
+  width:70px;
+  background:rgb(182, 44, 67);
+  padding:5px;
+  text-align: center;
+  border-radius: 15px 0 0 0;
+}
+.blog-item{
+  display: flex;
+}
+.b-end{
+  height:80px;
+  background:white;
+  padding:20px;
+  border-radius: 0 0 15px 15px;
+}
+.b-end2{
+  display: flex;
+  justify-content: space-between;
+  margin-top:30px;
+  color:rgb(196, 194, 194);
+}
+.b-btn .btn{
+  display:inline-block;
+  width:120px;
+  padding:20px 40px;
+  border:1px solid rgb(182, 44, 67);
+  border-radius: 50px;
+  background:white;
+  text-decoration: none;
+  color:rgb(182, 44, 67);
+  text-align: center;
+}
+.b-btn{
+  width:100%;
+  margin:30px 0;
+}
+/* 会社概要 */
+.company{
+  height:500px;
+  width:60%;
+  margin:10px auto;
+}
+.company-title>p{
+  font-family: 'Indie Flower', cursive;
+  color:rgb(182, 44, 67);
+  font-size:14px;
+  padding-top:30px;
+  margin-bottom:15px;
+}
+.company-title h2{
+  font-weight: bold;
+  font-size:24px;
+  margin-bottom:30px;
+}
+table{
+  width:100%;
+  margin:0 auto;
+  height:300px;
+}
+table tr{
+  border:1px solid rgb(173, 172, 172);
+  line-height: 1.5em;
+  width:100%;
+}
+table th{
+  text-align: left;
+  background:#ddd;
+  padding:15px;
+  width:30%;
+  border-right:1px solid rgb(175, 174, 174);
+}
+table td{
+  padding-left:30px;
+}
+/* 採用情報・社員インタビュー */
+.r-i{
+  height:200px;
+  display:flex;
+}
+.recruit{
+  background: url(../img/recruit.png) no-repeat center/cover;
+  width:50%;
+  position: relative;
+}
+.recruit p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:white;
+  font-weight: bold;
+  font-size:24px;
+  transform: translate(-50%,-50%);
+}
+.interview p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:white;
+  font-weight: bold;
+  font-size:24px;
+  transform: translate(-50%,-50%);
+}
+.interview{
+  background: url(../img/interview.png) no-repeat center/cover;
+  width:50%;
+  position:relative;
+}
+/* お問い合わせ */
+.otoiawase{
+  height:200px;
+  width:100%;
+  text-align: center;
+  padding:70px 0;
+}
+.otoiawase p{
+  font-weight: bold;
+  font-size:24px;
+}
+.line{
+  display: block;
+  width:30px;
+  height:30px;
+  margin:20px auto;
+  border-left:2px solid rgb(182, 44, 67);
+  transform: translate(+50%,0%);
+}
+.o-btn{
+  display:inline-block;
+  width:120px;
+  padding:20px 40px;
+  border:none;
+  border-radius: 50px;
+  background:linear-gradient(90deg, #eb3e80, #910255);
+  color:white;
+  text-align: center;
+  box-shadow: 0 7px rgb(77, 0, 45);
+  position:relative;
+}
+.o-btn::before{
+  content:"";
+  background:url(../img/mailicon.svg) no-repeat;
+  background-size:cover;
+  width:25px;
+  height:25px;
+  position:absolute;
+  top:50%;
+  left:10%;
+  transform: translate(-15%,-50%);
+}
+/* フッター */
+footer{
+  height:50px;
+  background:rgb(241, 241, 241);
+  text-align: center;
+  padding-top:25px;
+}
